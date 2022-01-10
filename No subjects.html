@@ -1,0 +1,222 @@
+
+<style type="text/css">
+
+    .course-section {
+        /*display: flex;*/
+        /*justify-content: normal;*/
+        /*padding: 18px;*/
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        transition: .25s box-shadow;
+        background: #fff;
+        margin: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .course-section:hover {
+      box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.45), 0 3px 15px 0 rgba(0, 0, 0, 0.35);
+       transition: .25s box-shadow;
+    }
+
+    .course-image {
+      text-align: center;
+      margin: 15px;
+    }
+
+    .course-name {
+      padding: 18px 5px;
+    }
+
+    .course-name button {
+      color: #000;
+      font-size: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 5px 8px;
+      font-weight: 600;
+      margin: 10px 10px;
+    }
+
+    .course-name button:hover {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      
+       transition: .25s box-shadow;
+    }
+
+
+
+    fieldset 
+    {
+        border: 1px solid cornflowerblue !important;
+        padding: 2px;
+        margin: 0;
+        min-width: 0;
+        padding: 10px;       
+        position: relative;
+        border-radius:4px;
+        background:none;
+        padding-left:10px!important;
+        margin-bottom: 10px;
+        background-color: white;
+    }   
+        
+    legend
+    {
+        font-size:14px;
+        font-weight:bold;
+        margin-bottom: 0px; 
+        width: 25%; 
+        border: 1px solid #ddd;
+        border-radius: 4px; 
+        padding: 5px 5px 5px 10px; 
+        background-color: cornflowerblue;
+        color:#ffffff;
+    }
+
+    .book-card {
+      /*padding: 20px 10px 10px 10px;*/
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      transition: .25s box-shadow;
+      border: 1px solid #ccc;
+      height: 300px;
+      margin: 8px;
+      /*height: 250px;*/
+    }
+
+    .book-card:hover {
+      box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.45), 0 3px 15px 0 rgba(0, 0, 0, 0.35);
+    }
+
+    .book-card h3 {
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .book-card img {
+      height: 235px;
+      width: 100%;
+    }
+
+    .para {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      text-align: center;
+    }
+
+    .buy-btn button{
+      background: #F96921;
+      color: #fff;
+      margin-bottom: 15px;
+      padding: 10px 37px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      transition: .25s box-shadow;
+      border: none;
+      letter-spacing: 2px;
+    }
+
+    .buy-btttn button{
+      background: green;
+      color: #fff;
+      margin-bottom: 15px;
+      padding: 10px 37px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      transition: .25s box-shadow;
+      border: none;
+      letter-spacing: 2px;
+    }
+</style>
+
+<section class="courses">
+       <div class="course-section" style="height: 500px;">
+    <div class="course-image">
+      <div class="course-name">
+        <h3 class="text-center"><b>No subjects</b></h3>
+      </div>
+    </div>
+    
+    </div> 
+  </section>
+
+
+<script>
+
+  $(function () {
+
+    $('#example1').DataTable()
+
+  })
+
+</script>    </div><!-- /.content-wrapper -->
+     
+        <footer class="main-footer">
+            <!-- <div class="pull-right hidden-xs">
+              <b>Version</b> 2.4.0
+            </div> -->
+            <strong>Copyright &copy; 2022 <a href="http://macsof.com" target="_blank">MacsOf Technologies</a></strong>
+        </footer>
+    </div>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="http://www.svracademy.in/assets/backend/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- DataTables -->
+    <script src="http://www.svracademy.in/assets/backend/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="http://www.svracademy.in/assets/backend/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <!-- Select2 -->
+    <script src="http://www.svracademy.in/assets/backend/bower_components/select2/dist/js/select2.full.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="http://www.svracademy.in/assets/backend/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="http://www.svracademy.in/assets/backend/bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- CK Editor -->
+    <script src="http://www.svracademy.in/assets/backend/bower_components/ckeditor/ckeditor.js"></script>
+    <!-- bootstrap time picker -->
+    <script src="http://www.svracademy.in/assets/backend/plugins/timepicker/bootstrap-timepicker.min.js"></script>
+    <!-- bootstrap datepicker -->
+    <script src="http://www.svracademy.in/assets/backend/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+
+
+    <!-- AdminLTE App -->
+    <script src="http://www.svracademy.in/assets/backend/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="http://www.svracademy.in/assets/backend/dist/js/demo.js"></script>
+    <script src="http://www.svracademy.in/assets/backend/dist/js/custom.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.sidebar-menu').tree()
+
+        /*Select 2*/
+        $('.select2').select2()
+
+        /* Tool tip*/
+        $('[data-toggle="tooltip"]').tooltip()
+
+        /* Alert Fadeout */
+        $('.alert').delay(5000).fadeOut(1000);
+
+        //Timepicker
+        $('.timepicker').timepicker({
+          showInputs: false
+        })
+
+        //Date picker
+        $('#datepicker').datepicker({
+          autoclose: true,
+          todayHighlight: true,
+          format: 'dd-mm-yyyy',
+        })
+
+        $('#todate').datepicker({
+          autoclose: true,
+          todayHighlight: true,
+          format: 'dd-mm-yyyy',
+        })
+    })
+    </script>
+    </body>
+</html>
